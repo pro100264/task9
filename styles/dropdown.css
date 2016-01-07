@@ -1,0 +1,66 @@
+body {
+  background: #e3caa1;
+}
+nav {
+  margin: 15px 15%;
+  background: #fff;
+  display: block;
+  width: auto;
+}
+.main-nav {
+  padding: 0;
+  background: #fff;
+}
+.main-nav li {
+  display: inline-block;
+  font-weight: bold;
+}
+.main-nav li a {
+  text-decoration: none;
+}
+.main-nav li:hover a:hover {
+  background: #555555;
+  color: #fff;
+}
+.main-nav li a {
+  color: #00080C;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+.main-nav .subnav-here {
+  position: relative;
+}
+.subnav-here:hover {
+  color: #fff;
+  background: #555;
+}
+.subnav-here a:focus {
+  color: #fff;
+  background: #555;
+}
+.main-nav .subnav-here:hover .sub-nav {
+  display: block;
+  background: #555555;
+}
+.sub-nav {
+  position: absolute;
+  display: none;
+  width: 180px;
+  background: #555555;
+  padding-left: 0;
+}
+.sub-nav li {
+  display: block;
+}
+.sub-nav li a {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+}
+.sub-nav li a:hover {
+  background-color: #666 !important;
+}

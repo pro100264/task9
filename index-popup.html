@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modal popup</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/modal-popup.css">
+    <link rel="stylesheet" type="text/css" href="styles/style-base.css">
+
+    <script type="text/javascript">
+        function showPopup(){
+            document.getElementById("popup1").style.display = "block";
+            return false;
+        }
+        function hidePopup(){
+            document.getElementById("popup1").style.display = "none";
+            return false;
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <a onclick="showPopup()">Sign up</a>
+</div>
+
+<div class="popup" id="popup1">
+    <div class="content">
+        <h1>Modal in CSS?</h1>
+        <p>One modal example here! :D</p>
+        <a onclick="hidePopup()">Nice!</a>
+    </div>
+</div>
+</body>
+</html>
